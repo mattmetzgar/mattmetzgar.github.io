@@ -7,7 +7,8 @@ published: true
 ---
 
 Test that dolor sit amet cake. Cotton candy candy canes jujubes. Powder toffee I love sugar plum sweet roll candy cookie powder wafer. Tiramisu tootsie roll I love sweet chocolate cake cookie. Fruitcake I love gummies cheesecake sugar plum. Candy candy candy jelly jelly-o.
-[beach.jpg]({{site.baseurl}}/_posts/2016/07/beach.jpg)
+
+![beach.jpg]({{site.baseurl}}/_posts/2016/07/beach.jpg)
 
 
 Carrot cake brownie jujubes gingerbread liquorice pastry I love croissant. I love bonbon powder chocolate cake apple p!
