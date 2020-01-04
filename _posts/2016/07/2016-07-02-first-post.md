@@ -6,7 +6,7 @@ coverPhoto: 'https://ozgrozer.github.io/dasper/contents/images/2016/07/jekyll.jp
 published: true
 ---
 
-Test ipsum dolor sit amet cake. Cotton candy candy canes jujubes. Powder toffee I love sugar plum sweet roll candy cookie powder wafer. Tiramisu tootsie roll I love sweet chocolate cake cookie. Fruitcake I love gummies cheesecake sugar plum. Candy candy candy jelly jelly-o.
+Test that dolor sit amet cake. Cotton candy candy canes jujubes. Powder toffee I love sugar plum sweet roll candy cookie powder wafer. Tiramisu tootsie roll I love sweet chocolate cake cookie. Fruitcake I love gummies cheesecake sugar plum. Candy candy candy jelly jelly-o.
 [beach.jpg]({{site.baseurl}}/_posts/2016/07/beach.jpg)
 
 
