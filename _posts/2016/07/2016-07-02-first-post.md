@@ -1,15 +1,17 @@
 ---
 layout: article
-title: First Post
-date: 2016-07-02 15:33:00+0200
-coverPhoto: https://ozgrozer.github.io/dasper/contents/images/2016/07/jekyll.jpg
+title: Test Post
+date: '2016-07-02 15:33:00+0200'
+coverPhoto: 'https://ozgrozer.github.io/dasper/contents/images/2016/07/jekyll.jpg'
+published: true
 ---
 
 Test ipsum dolor sit amet cake. Cotton candy candy canes jujubes. Powder toffee I love sugar plum sweet roll candy cookie powder wafer. Tiramisu tootsie roll I love sweet chocolate cake cookie. Fruitcake I love gummies cheesecake sugar plum. Candy candy candy jelly jelly-o.
+[beach.jpg]({{site.baseurl}}/_posts/2016/07/beach.jpg)
 
-![](https://ozgrozer.github.io/dasper/contents/images/2016/07/jekyll.jpg)
 
-Carrot cake brownie jujubes gingerbread liquorice pastry I love croissant. I love bonbon powder chocolate cake apple pie dragée. Apple pie donut I love topping chocolate bar liquorice cotton candy liquorice. Marzipan apple pie sweet roll halvah oat cake I love pastry chocolate bar. Apple pie I love cookie brownie powder. Fruitcake chocolate bar I love jelly jelly carrot cake. Jelly beans toffee tart halvah icing macaroon gingerbread croissant. Jelly beans dragée cupcake cotton candy jelly dessert liquorice carrot cake.
+Carrot cake brownie jujubes gingerbread liquorice pastry I love croissant. I love bonbon powder chocolate cake apple p!
+ie dragée. Apple pie donut I love topping chocolate bar liquorice cotton candy liquorice. Marzipan apple pie sweet roll halvah oat cake I love pastry chocolate bar. Apple pie I love cookie brownie powder. Fruitcake chocolate bar I love jelly jelly carrot cake. Jelly beans toffee tart halvah icing macaroon gingerbread croissant. Jelly beans dragée cupcake cotton candy jelly dessert liquorice carrot cake.
 
 Sugar plum liquorice sugar plum jujubes marzipan bear claw donut cheesecake tart. I love muffin jujubes dragée pudding powder biscuit. Marshmallow halvah I love gummies I love cake dessert. Dragée marzipan dessert candy I love oat cake chocolate. Cotton candy cake icing cookie lollipop. Sweet candy halvah jelly beans toffee sesame snaps oat cake pastry. Pudding jelly beans ice cream candy canes sugar plum candy canes chocolate bar cookie. Chocolate toffee I love gummies gummies.
 
