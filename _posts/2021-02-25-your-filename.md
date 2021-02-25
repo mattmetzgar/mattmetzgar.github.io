@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Trail 2021
 
