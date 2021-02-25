@@ -37,4 +37,4 @@ sitemap:
   change_frequency_name: "daily"
   priority_name: "1.00"
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-cayman
