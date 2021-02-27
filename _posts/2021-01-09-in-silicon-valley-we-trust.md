@@ -3,10 +3,9 @@ id: 226
 title: In Silicon Valley We Trust?
 date: 2021-01-09T08:43:33-05:00
 author: Matt Metzgar
-layout: post
-guid: https://mattmetzgar.com/?p=226
+layout: article
 permalink: /in-silicon-valley-we-trust/
-image: /wp-content/uploads/2021/01/pexels-photo-267350-1568x1138.jpeg
+coverPhoto: /assets/img/pexels-photo-267350.jpeg
 categories:
   - Current Events
 ---

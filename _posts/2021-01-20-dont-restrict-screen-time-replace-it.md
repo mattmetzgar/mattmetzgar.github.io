@@ -3,16 +3,9 @@ id: 244
 title: 'Don&#8217;t Restrict Screen Time, Replace It'
 date: 2021-01-20T14:46:36-05:00
 author: Matt Metzgar
-layout: post
-guid: https://mattmetzgar.com/?p=244
+layout: article
 permalink: /dont-restrict-screen-time-replace-it/
-amazon_polly_audio_location:
-  - ""
-amazon_polly_enable:
-  - "0"
-mf2_syndication:
-  - 'a:0:{}'
-image: /wp-content/uploads/2021/01/pexels-photo-145707-1568x1045.jpeg
+coverPhoto: /assets/img/pexels-photo-145707.jpeg
 categories:
   - Digital Health
 ---

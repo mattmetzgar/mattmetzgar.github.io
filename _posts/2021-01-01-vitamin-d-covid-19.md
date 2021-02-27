@@ -3,10 +3,9 @@ id: 91
 title: 'Vitamin D &#038; COVID-19'
 date: 2021-01-01T19:47:30-05:00
 author: Matt Metzgar
-layout: post
-guid: https://mattmetzgar.com/?p=91
+layout: article
 permalink: /vitamin-d-covid-19/
-image: /wp-content/uploads/2021/01/covid.jpg
+coverPhoto: /assets/img/covid.jpg
 categories:
   - Current Events
 ---

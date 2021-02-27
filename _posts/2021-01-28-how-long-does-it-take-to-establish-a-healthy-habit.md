@@ -3,16 +3,9 @@ id: 256
 title: How Long Does It Take to Establish A Healthy Habit?
 date: 2021-01-28T09:21:05-05:00
 author: Matt Metzgar
-layout: post
-guid: https://mattmetzgar.com/?p=256
+layout: article
 permalink: /how-long-does-it-take-to-establish-a-healthy-habit/
-amazon_polly_audio_location:
-  - ""
-amazon_polly_enable:
-  - "0"
-mf2_syndication:
-  - 'a:0:{}'
-image: /wp-content/uploads/2021/01/pexels-photo-3756165-1568x1045.jpeg
+coverPhoto: /assets/img/pexels-photo-3756165.jpeg
 categories:
   - Physical Health
 tags:

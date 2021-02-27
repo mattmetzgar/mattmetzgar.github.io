@@ -76,7 +76,7 @@ layout: htmlCompressor
     <section>
 
       <!-- Homepage -->
-      <a href="{{ site.baseurl }}"><i class="icon-home"></i></a>
+      <a href="{{ site.url | relative_url }}"><i class="icon-home"></i></a>
 
       <!-- Site name & description -->
       <div>
@@ -87,8 +87,8 @@ layout: htmlCompressor
           <!-- Display: table-cell -->
           <div class="dtc">
 
-            <h3>{{ site.name }}</h3>
-            <h6>{{ site.description }}</h6>
+            <h3><a href="{{site.url | relative_url}}"><img class="logo-img" src="{{site.logo | relative_url }}" alt="{{site.name}}"></a></h3>
+            
 
           </div><!-- .dtc -->
 
@@ -97,7 +97,7 @@ layout: htmlCompressor
       </div><!-- div -->
 
       <!-- Mail -->
-      <a href="mailto:{{ site.email }}"><i class="icon-envelope-o"></i></a>
+      <a class="about-page-link" href="/about">About</a>
 
     </section><!-- section -->
 

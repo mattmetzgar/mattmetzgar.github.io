@@ -3,16 +3,9 @@ id: 240
 title: Time Use Before the Internet
 date: 2021-01-20T14:30:23-05:00
 author: Matt Metzgar
-layout: post
-guid: https://mattmetzgar.com/?p=240
+layout: article
 permalink: /time-use-before-the-internet/
-amazon_polly_audio_location:
-  - ""
-amazon_polly_enable:
-  - "0"
-mf2_syndication:
-  - 'a:0:{}'
-image: /wp-content/uploads/2021/01/pexels-photo-682933-1568x1104.jpeg
+coverPhoto: /assets/img/pexels-photo-682933.jpeg
 categories:
   - Digital Health
 ---

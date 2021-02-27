@@ -3,12 +3,9 @@ id: 236
 title: The Best Social Media May Be None
 date: 2021-01-15T18:58:12-05:00
 author: Matt Metzgar
-layout: post
-guid: https://mattmetzgar.com/?p=236
+layout: article
 permalink: /the-best-social-media-may-be-none/
-mf2_syndication:
-  - 'a:0:{}'
-image: /wp-content/uploads/2021/01/pexels-photo-1851415-1568x1045.jpeg
+coverPhoto: /assets/img/pexels-photo-1851415.jpeg
 categories:
   - Digital Health
 ---
