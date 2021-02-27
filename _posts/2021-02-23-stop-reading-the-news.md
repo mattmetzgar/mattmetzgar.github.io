@@ -1,18 +1,11 @@
 ---
 id: 272
 title: Stop Reading The News
-date: {}
+date: 2021-01-01T19:46:00-05:00
 author: Matt Metzgar
-layout: post
-guid: 'https://mattmetzgar.com/?p=272'
+layout: article
 permalink: /stop-reading-the-news/
-amazon_polly_audio_location:
-  - ''
-amazon_polly_enable:
-  - '0'
-mf2_syndication:
-  - 'a:0:{}'
-image: /wp-content/uploads/2021/02/news.jpg
+coverPhoto: /assets/img/news.jpg
 categories:
   - Digital Health
 tags:

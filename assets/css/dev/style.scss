@@ -6,6 +6,9 @@
 @import "prism";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab&subset=latin,latin-ext);
 
+
+
+
 /* Margin-top */
 .mt {
 
@@ -826,4 +829,28 @@ footer {
 }
 /* Personal computers */
 @media(min-width:$computer-min) {
+}
+
+
+img.logo-img {
+  max-width: 278px;
+}
+a.about-page-link {
+  font-size: 19px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #7e7e7e;
+}
+
+a.about-page-link:hover {
+  background: transparent;
+}
+section.height-auto img, section.height-auto figure {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  max-width: 100%!important;
 }

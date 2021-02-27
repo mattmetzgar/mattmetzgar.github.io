@@ -30,7 +30,7 @@ layout: default
       {% endif %}
 
     <!-- Article pre description -->
-    <section class="max-height">{{ post.content | strip_html | slice: 0, 200 }}</section>
+    <section class="height-auto">{{ post.content  }}</section>
 
     <!-- Article date & article continue reading button container -->
     <div class="article__bottom">
@@ -60,8 +60,7 @@ layout: default
         {% endif %}
       </span>
 
-      <!-- Article continue reading button -->
-      <a class="article__button" href="{{ site.baseurl }}{{ post.url }}">{% if site.lang == "tr" %}DEVAMINI OKU{% else %}CONTINUE READING{% endif %}</a>
+ 
 
     </div><!-- .article__bottom -->
 

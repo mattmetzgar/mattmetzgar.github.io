@@ -3,16 +3,9 @@ id: 252
 title: How Often Should You Check Your Email?
 date: 2021-01-22T14:39:08-05:00
 author: Matt Metzgar
-layout: post
-guid: https://mattmetzgar.com/?p=252
+layout: article
 permalink: /how-often-should-you-check-your-email/
-amazon_polly_audio_location:
-  - ""
-amazon_polly_enable:
-  - "0"
-mf2_syndication:
-  - 'a:0:{}'
-image: /wp-content/uploads/2021/01/pexels-photo-374720-1568x1045.jpeg
+coverPhoto: /assets/img/pexels-photo-374720.jpeg
 categories:
   - Digital Health
 ---

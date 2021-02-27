@@ -3,15 +3,8 @@ id: 268
 title: DIY Community
 date: 2021-02-17T11:47:00-05:00
 author: Matt Metzgar
-layout: post
-guid: https://mattmetzgar.com/?p=268
+layout: article
 permalink: /diy-community/
-amazon_polly_audio_location:
-  - ""
-amazon_polly_enable:
-  - "0"
-mf2_syndication:
-  - 'a:0:{}'
 categories:
   - Current Events
 format: aside
