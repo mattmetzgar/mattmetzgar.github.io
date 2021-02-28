@@ -854,3 +854,39 @@ section.height-auto img, section.height-auto figure {
   margin-right: auto!important;
   max-width: 100%!important;
 }
+ 
+header, footer {
+    background: #e6f4de;
+}
+header i {
+    color: #1d7543;
+    font-size: 32px!important;
+}
+main>section .pagination .column .buttonsAndPageNumber, main>section .pagination .column span, main>section .pagination .column a {
+    font-size: 16px;
+}
+main>section .pagination .column a {
+    background: #1d7543;
+    color: #fff;
+    border-color: #1d7543;
+}
+
+main>section .pagination .column a:hover {
+    color: #fff!important;
+    background: #7DB564;
+    border-color: #7DB564;
+}
+footer .dtc {
+    color: #1d7543;
+}
+footer a {
+    color: #1d7543 !important;
+    font-weight: bold!important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, main>section article .article__date, main>section article .article__button {
+    font-weight: 700;
+    color: #1d7543;
+}
+header>section>a:hover, header>section>a:active {
+    background-color: #ffffff;
+}
