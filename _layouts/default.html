@@ -61,11 +61,10 @@ layout: htmlCompressor
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/rss.xml">
 
   <!-- CSS & JS files -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/prod/style.min.css">
-  <script src="{{ site.baseurl }}/assets/js/prod/prism.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/prod/fastclick.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/prod/init.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    {% include css/style.min.css %}
+  </style>
+ 
 </head>
 <body>
 
@@ -160,5 +159,17 @@ layout: htmlCompressor
 
   {% endif %}
 
+  <script>
+    window.addEventListener('load', function() {
+      var faTag = document.createElement('link');
+      faTag.rel = 'stylesheet';
+      faTag.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+      document.head.appendChild(faTag)
+    })
+  </script>
+
+  <script src="{{ site.baseurl }}/assets/js/prod/prism.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/prod/fastclick.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/prod/init.min.js"></script>
 </body>
 </html>
