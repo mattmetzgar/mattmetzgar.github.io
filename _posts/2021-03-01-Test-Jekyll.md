@@ -1,6 +1,8 @@
 ---
-published: true
+title: Test Jekyll
+date: 2021-03-01 00:00:00 -05:00
 ---
+
 ![jekyllpic.jpeg]({{site.baseurl}}/assets/img/jekyllpic.jpeg)
 
 

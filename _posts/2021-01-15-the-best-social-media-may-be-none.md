@@ -1,14 +1,15 @@
 ---
-id: 236
 title: The Best Social Media May Be None
-date: 2021-01-15T18:58:12-05:00
+date: 2021-01-15 18:58:12 -05:00
+permalink: "/the-best-social-media-may-be-none/"
+categories:
+- Digital Health
+id: 236
 author: Matt Metzgar
 layout: article
-permalink: /the-best-social-media-may-be-none/
-coverPhoto: /assets/img/pexels-photo-1851415.jpeg
-categories:
-  - Digital Health
+coverPhoto: "/assets/img/pexels-photo-1851415.jpeg"
 ---
+
 With the mass exodus from Twitter, many people are looking for new social media platforms. While new platforms will certainly emerge to serve the market, there is little questioning of the overall value of social media.
 
 Social media has benefits and costs. Overall, the <a href="https://pubmed.ncbi.nlm.nih.gov/31742462/" target="_blank" rel="noreferrer noopener">research</a> is unclear on whether it enhances well-being or not. There is no guarantee that any new platforms will be better (healthier) than the existing ones.

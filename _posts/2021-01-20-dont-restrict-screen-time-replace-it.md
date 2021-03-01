@@ -1,14 +1,15 @@
 ---
+title: Don&#8217;t Restrict Screen Time, Replace It
+date: 2021-01-20 14:46:36 -05:00
+permalink: "/dont-restrict-screen-time-replace-it/"
+categories:
+- Digital Health
 id: 244
-title: 'Don&#8217;t Restrict Screen Time, Replace It'
-date: 2021-01-20T14:46:36-05:00
 author: Matt Metzgar
 layout: article
-permalink: /dont-restrict-screen-time-replace-it/
-coverPhoto: /assets/img/pexels-photo-145707.jpeg
-categories:
-  - Digital Health
+coverPhoto: "/assets/img/pexels-photo-145707.jpeg"
 ---
+
 Clarence Bass had a great <a href="https://www.cbass.com/Faq(8).htm#Even" target="_blank" rel="noreferrer noopener">post</a> this month on why New Year&#8217;s resolutions usually fail.
 
 He discusses how people often rely on willpower to stop bad habits. The results are typically poor.

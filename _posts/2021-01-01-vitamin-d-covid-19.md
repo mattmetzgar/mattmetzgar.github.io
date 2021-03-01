@@ -1,14 +1,15 @@
 ---
+title: Vitamin D &#038; COVID-19
+date: 2021-01-01 19:47:30 -05:00
+permalink: "/vitamin-d-covid-19/"
+categories:
+- Current Events
 id: 91
-title: 'Vitamin D &#038; COVID-19'
-date: 2021-01-01T19:47:30-05:00
 author: Matt Metzgar
 layout: article
-permalink: /vitamin-d-covid-19/
-coverPhoto: /assets/img/covid.jpg
-categories:
-  - Current Events
+coverPhoto: "/assets/img/covid.jpg"
 ---
+
 What if a cheap supplement could help protect you from COVID-19? Vitamin D may very well improve outcomes associated with COVID-19.
 
 There have been a number of studies showing a link between Vitamin D and COVID-19. For example, this&nbsp;[study](https://pubmed.ncbi.nlm.nih.gov/33146028/)&nbsp;shows how low Vitamin D levels are associated with increased COVID-19 hospitalization and mortality.

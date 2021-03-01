@@ -1,4 +1,13 @@
-# Website details
+---
+title: Mattmetzgar.Github.Io
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 name: Matt Metzgar
 description: Blogging
 email: email@site.com
@@ -6,36 +15,26 @@ author: author
 lang: en
 locale: en_US
 logo: assets/img/logo.png
-
-# Jekyll
 paginate: 10
 highlighter: rouge
 markdown: kramdown
-plugins: [jekyll-paginate]
-timezone: America/New_York
+plugins:
+- jekyll-paginate
 paginateLabel: page
-paginate_path: "page/:num"
-permalink: /:categories/:year/:month/:day/:title
-baseurl: ""
-
-# Includes
-addthisId: ""
-disqusUsername: ""
-googleAnalyticsId: ""
-
-# Search engine verifications
-bing: ""
-yandex: ""
-google: ""
-
-# Sitemap
+paginate_path: page/:num
+permalink: "/:categories/:year/:month/:day/:title"
+baseurl: ''
+addthisId: ''
+disqusUsername: ''
+googleAnalyticsId: ''
+bing: ''
+yandex: ''
+google: ''
 sitemap:
   file: "/sitemap.xml"
   exclude:
-    - "/404.html"
+  - "/404.html"
   include_posts:
-    - "/index.html"
-  change_frequency_name: "daily"
-  priority_name: "1.00"
-
- 
+  - "/index.html"
+  change_frequency_name: daily
+  priority_name: '1.00'

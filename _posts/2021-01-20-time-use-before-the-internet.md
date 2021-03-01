@@ -1,14 +1,15 @@
 ---
-id: 240
 title: Time Use Before the Internet
-date: 2021-01-20T14:30:23-05:00
+date: 2021-01-20 14:30:23 -05:00
+permalink: "/time-use-before-the-internet/"
+categories:
+- Digital Health
+id: 240
 author: Matt Metzgar
 layout: article
-permalink: /time-use-before-the-internet/
-coverPhoto: /assets/img/pexels-photo-682933.jpeg
-categories:
-  - Digital Health
+coverPhoto: "/assets/img/pexels-photo-682933.jpeg"
 ---
+
 What did people do with their free time before the internet? That&#8217;s the question from an interesting new <a href="https://journals.sagepub.com/doi/pdf/10.1177/1461444817737296?casa_token=D5_3WFoSim4AAAAA:o7h34nKjvsAZSqxP3qW-xYHYLH7p6qilmAOM7W_FFGt4yvtprWHSG5Xwkt9fBcp6wpKh4QxEtAn5Gw" target="_blank" rel="noreferrer noopener">study</a> I came across. It tracked time use for young adults across three different decades.
 
 Some of the results were predictable, such as less reading of books and newspapers. The results also showed there were less in-person visits. Most likely, this is due to the ability to connect with people online.

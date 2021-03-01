@@ -1,18 +1,19 @@
 ---
-id: 256
 title: How Long Does It Take to Establish A Healthy Habit?
-date: 2021-01-28T09:21:05-05:00
+date: 2021-01-28 09:21:05 -05:00
+permalink: "/how-long-does-it-take-to-establish-a-healthy-habit/"
+categories:
+- Physical Health
+tags:
+- exercise
+- habit
+- health
+id: 256
 author: Matt Metzgar
 layout: article
-permalink: /how-long-does-it-take-to-establish-a-healthy-habit/
-coverPhoto: /assets/img/pexels-photo-3756165.jpeg
-categories:
-  - Physical Health
-tags:
-  - exercise
-  - habit
-  - health
+coverPhoto: "/assets/img/pexels-photo-3756165.jpeg"
 ---
+
 Good habits can improve long-term health. However, it can be challenging to stick to new habits in the short-term. Plenty of New Year&#8217;s resolutions fizzle out by February.
 
 Fortunately, a good amount of research has been done on habit formation. It appears to take around <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.674" target="_blank" rel="noreferrer noopener">10 weeks</a> (on average) for a new, healthy habit to become automatic. There is some variation due to how complex the habit is and when it is performed.

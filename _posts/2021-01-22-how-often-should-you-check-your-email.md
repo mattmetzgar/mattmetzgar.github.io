@@ -1,14 +1,15 @@
 ---
-id: 252
 title: How Often Should You Check Your Email?
-date: 2021-01-22T14:39:08-05:00
+date: 2021-01-22 14:39:08 -05:00
+permalink: "/how-often-should-you-check-your-email/"
+categories:
+- Digital Health
+id: 252
 author: Matt Metzgar
 layout: article
-permalink: /how-often-should-you-check-your-email/
-coverPhoto: /assets/img/pexels-photo-374720.jpeg
-categories:
-  - Digital Health
+coverPhoto: "/assets/img/pexels-photo-374720.jpeg"
 ---
+
 An interesting <a href="https://www.sciencedirect.com/science/article/abs/pii/S0747563214005810" target="_blank" rel="noreferrer noopener">study</a> looked at the the frequency of checking email and stress levels.
 
 The control group checked their email at their normal rate, which was about 12 times per day. The experimental group was instructed to check their email only 3 times per day.
