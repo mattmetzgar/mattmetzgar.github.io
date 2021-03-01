@@ -50,7 +50,7 @@ gulp.task('uncss', function () {
       './assets/css/prod/style.min.css'
     ])
       .pipe(uncss({
-          html: ['./_site/index.html', './_site/**/*.html', 'http://127.0.0.1:4000/']
+          html: ['./_site/index.html', './_site/**/*.html']
       }))
       .pipe(gulp.dest('./_includes/css'));
 });
@@ -58,6 +58,8 @@ gulp.task('uncss', function () {
 gulp.task('watch', function () {
   gulp.watch(paths.scss.source, ['scss'])
   gulp.watch(paths.js.source, ['js'])
-})
+});
+
+gulp.task('css', ['cssConcat', 'uncss'])
 
 gulp.task('default', ['scss', 'js', 'watch'])
