@@ -8,16 +8,16 @@
     {% if paginator.previous_page %}
 
       <!-- If previous page is 1 -->
-      {% if paginator.previous_page == 1 %}
+      {% if paginator.previous_page %}
 
         <!-- Giving the button base url link -->
-        <a href="{{ site.baseurl }}">{% if site.lang == "tr" %}Yeni Yazılar{% else %}Newer Posts{% endif %}</a>
+         <a href="{{ paginator.previous_page_path }}">{% if site.lang == "tr" %}Yeni Yazılar{% else %}Newer Posts{% endif %}</a>
 
       <!-- If previous page is not 1 -->
       {% else %}
 
         <!-- Giving the button pagination link -->
-        <a href="{{ site.baseurl }}/{{ site.paginateLabel }}/{{ paginator.previous_page }}">{% if site.lang == "tr" %}Yeni Yazılar{% else %}Newer Posts{% endif %}</a>
+        <span class="previous">Previous</span>
 
       {% endif %}
 
@@ -52,7 +52,7 @@
     {% if paginator.next_page %}
 
       <!-- Giving the button pagination link -->
-      <a href="{{ site.baseurl }}/{{ site.paginateLabel }}/{{ paginator.next_page }}">{% if site.lang == "tr" %}Eski Yazılar{% else %}Older Posts{% endif %}</a>
+      <a href="{{ paginator.next_page_path }}" class="next">{% if site.lang == "tr" %}Eski Yazılar{% else %}Older Posts{% endif %}</a>
 
     {% endif %}
 
