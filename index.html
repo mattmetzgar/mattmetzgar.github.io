@@ -23,7 +23,7 @@ layout: default
       {% if post.coverPhoto %}
 
         <!-- Article image with aspect ratio -->
-        <a href="{{ site.baseurl }}{{ post.url }}" class="ar-container">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="ar-container" aria-label="{{ post.title }}">
           <span class="ar-content" style="background-image: url({{ post.coverPhoto }});"></span>
         </a><!-- .ar-container -->
 
