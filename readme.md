@@ -1,6 +1,19 @@
 # Dasper
 [Dasper](https://github.com/ozgrozer/dasper) is a [Jekyll](https://jekyllrb.com/) theme inspired by [Ghost](https://ghost.org/)'s default theme [Casper](https://demo.ghost.io/) and also [Jasper](https://biomadeira.github.io/jasper/) & [Kasper](http://rosario.io/).
 
+## Instructions for development
+
+After you pull the project, mack sure to run:
+
+* `bundle install` install gemfile dep
+* `npm install` install npm dep
+
+* `bundle exec jekyll serve --livereload` will start localhost server
+
+* `gulp --tasks` will give you a list of available gulp tasks
+
+* after any design changes run `gulp css` to update critical css
+
 ## Live Demo
 - [ozgrozer.github.io/dasper](https://ozgrozer.github.io/dasper)
 
