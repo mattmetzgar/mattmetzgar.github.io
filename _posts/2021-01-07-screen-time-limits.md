@@ -13,7 +13,7 @@ categories:
 
 Screen time has exploded during COVID-19. Children are moving less and staring at screens more (for both school and leisure). From this <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7190470/pdf/main.pdf" target="_blank" rel="noreferrer noopener">study</a>, here is data on Chinese adolescents:<figure class="wp-block-image size-large">
 
-<img loading="lazy" width="507" height="333" src="https://i2.wp.com/mattmetzgar.com/wp-content/uploads/2021/01/image.png?resize=507%2C333&#038;ssl=1" />
+<img loading="lazy" width="507" height="333" src="https://i2.wp.com/mattmetzgar.com/wp-content/uploads/2021/01/image.png?resize=507%2C333&#038;ssl=1" alt="Physical activity and sedentary time before and during the COVID-19 pandemic among childreb and adolescents in China." />
 
 Simply put, most children are not getting sufficient physical activity every day.
 
