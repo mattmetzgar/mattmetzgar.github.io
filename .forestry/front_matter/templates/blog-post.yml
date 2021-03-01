@@ -12,7 +12,7 @@ fields:
   name: date
   label: date
 - type: text
-  name: author
+  name: Matt_Metzgar
   label: author
 - type: text
   name: layout
