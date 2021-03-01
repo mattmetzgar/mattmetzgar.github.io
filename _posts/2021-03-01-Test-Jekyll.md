@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ![jekyllpic.jpeg]({{site.baseurl}}/_posts/jekyllpic.jpeg)
 
