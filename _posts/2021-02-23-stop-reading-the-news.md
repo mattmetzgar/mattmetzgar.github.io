@@ -1,7 +1,7 @@
 ---
 id: 272
 title: Stop Reading The News
-date: 2021-01-01T19:46:00-05:00
+date: 2021-02-23T19:46:00-05:00
 author: Matt Metzgar
 layout: article
 permalink: /stop-reading-the-news/
