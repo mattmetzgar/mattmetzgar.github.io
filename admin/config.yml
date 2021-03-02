@@ -7,7 +7,6 @@ backend:
  
 media_folder: "assets/img/uploads" # Folder where user uploaded files should go
 
-publish_mode: editorial_workflow # Enable drafts
 
 collections: # A list of collections the CMS should be able to edit
   # POSTS
@@ -20,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Author",name: "author", default: "Matt Metzgar}
+      - {label: "Author",name: "author", default: "Matt Metzgar, required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
