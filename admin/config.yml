@@ -5,7 +5,6 @@ backend:
   repo: mattmetzgar/mattmetzgar.github.io
   branch: master # Branch to update (optional; defaults to master)
  
-media_folder: "images/uploads"
 media_folder: "assets/img/uploads" # Folder where user uploaded files should go
 
 publish_mode: editorial_workflow # Enable drafts
