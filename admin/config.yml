@@ -1,7 +1,7 @@
 # config.yml
 
 backend:
-  name: git-gateway
+  name: github
   repo: mattmetzgar/mattmetzgar.github.io
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
