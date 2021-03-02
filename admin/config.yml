@@ -10,3 +10,4 @@ collections:
     folder: '_posts/'
     fields:
       - { name: Title }
+ 
