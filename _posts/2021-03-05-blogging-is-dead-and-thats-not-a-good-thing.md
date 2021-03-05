@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Blogging Is Dead, and That's Not a Good Thing
-date: 2021-03-05 14:40:45
+date: 2021-03-05 09:40:45 -05:00
+layout: article
 ---
+
 ![](/assets/img/uploads/blog.jpg)
 
 It's amazing how much the blogging world has changed over the past ten years.  While blogs used to hold the majority of the conversations, now they do not.  I often see the websites of best-selling authors that have zero comments on their blogs.
