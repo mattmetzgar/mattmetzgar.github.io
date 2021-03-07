@@ -27,7 +27,7 @@ permalink: "/:categories/:year/:month/:day/:title"
 baseurl: ''
 addthisId: ''
 disqusUsername: ''
-googleAnalyticsId: 'UA-82546110-1'
+googleAnalyticsId: UA-82546110-1
 bing: ''
 yandex: ''
 google: ''
