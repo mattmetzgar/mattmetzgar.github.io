@@ -9,8 +9,8 @@ collections:
     title: Uploads
     output: true
 name: Matt Metzgar
-description: Blogging
-email: email@site.com
+description: Exploring Health
+email: author@site.com
 author: author
 lang: en
 locale: en_US
@@ -27,7 +27,7 @@ permalink: "/:categories/:year/:month/:day/:title"
 baseurl: ''
 addthisId: ''
 disqusUsername: ''
-googleAnalyticsId: ''
+googleAnalyticsId: 'UA-82546110-1'
 bing: ''
 yandex: ''
 google: ''
