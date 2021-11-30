@@ -1,14 +1,15 @@
 ---
-layout: article
-author: Matt Metzgar
-permalink: /screen-time-limits/
 title: Screen Time Limits
 date: 2021-01-07 14:05:49 -05:00
-coverPhoto: /assets/img/pexels-photo-3807747.jpeg
-id: 222
+permalink: "/screen-time-limits/"
 categories:
-  - Digital Health
+- Digital Health
+layout: article
+author: Matt Metzgar
+coverPhoto: "/assets/img/pexels-photo-3807747.jpeg"
+id: 222
 ---
+
 Screen time has exploded during COVID-19. Children are moving less and staring at screens more (for both school and leisure). From this <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7190470/pdf/main.pdf" target="_blank" rel="noreferrer noopener">study</a>, here is data on Chinese adolescents:
 
 ![](/assets/img/uploads/timeuse.jpg)
