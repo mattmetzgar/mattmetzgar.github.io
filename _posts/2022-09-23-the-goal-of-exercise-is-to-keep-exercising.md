@@ -1,8 +1,9 @@
 ---
-layout: article
 title: The Goal of Exercise is to Keep Exercising
-date: 2022-09-23 15:31:51
+date: 2022-09-23 11:31:51 -04:00
+layout: article
 ---
+
 In the short-term, exercise can be a tool to build muscle or reduce fat.  But for a person to continue exercising over the long-term, it has to be enjoyable in my view.
 
 Said differently, the goal of any exercise session is that it gets you to come back next time.  
