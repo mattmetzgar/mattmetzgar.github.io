@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Bored and Online
-date: 2022-10-17 10:31:03
+date: 2022-10-17 06:31:03 -04:00
+layout: article
 ---
+
 F﻿rom this [study](https://pubmed.ncbi.nlm.nih.gov/31978836/):
 
 
