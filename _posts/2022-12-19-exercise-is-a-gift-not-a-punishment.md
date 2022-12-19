@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Exercise Is A Gift, Not A Punishment
-date: 2022-12-19 09:07:01
+date: 2022-12-19 04:07:01 -05:00
+layout: article
 ---
+
 T﻿here seems to be a growing trend of former Navy Seals who are now writing books, giving talks, etc.
 
 I﻿'ve read a few of these books this year, and I have to say they have not been good.  Here's what I think is happening:
