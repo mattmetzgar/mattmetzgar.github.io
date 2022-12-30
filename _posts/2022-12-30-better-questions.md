@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Better Questions
-date: 2022-12-30 11:12:09
+date: 2022-12-30 06:12:09 -05:00
+layout: article
 ---
+
 A lot of health indicators gravitate towards performance measures:
 
 * How fast can you run a certain distance?
