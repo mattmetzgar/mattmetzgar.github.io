@@ -6,8 +6,11 @@ layout: default
 <article{% if site.addthisId == "" and site.disqusUsername == "" %} class="noBorder"{% endif %}>
 
   <!-- Article title -->
-  <h1>{{ page.title | default: content | markdownify | replace_first: '<h1>', '' | replace_first: '</h1>', '' | truncatewords: 10 }}</h1>
-
+  {% if page.title == "" %}
+  <h1>{{ page.content | strip_html | truncatewords: 10 }}</h1>
+{% else %}
+  <h1>{{ page.title }}</h1>
+{% endif %}
 
   <!-- Article date -->
   <span class="article__date">
