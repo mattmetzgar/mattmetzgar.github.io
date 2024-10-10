@@ -1,6 +1,5 @@
 ---
 title: Mattmetzgar.Github.Io
-url: https://mattmetzgar.com/
 timezone: America/New_York
 collections:
   posts:
@@ -9,6 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+url: https://mattmetzgar.com/
 name: Matt Metzgar
 description: Exploring Health
 email: author@site.com
