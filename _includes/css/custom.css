@@ -124,7 +124,7 @@ main>section {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     border-top: 1px solid #f1f1f1;
     width: 100%;
     bottom: 0;
