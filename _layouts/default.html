@@ -64,6 +64,7 @@ layout: htmlCompressor
   <style>
     {% include css/fonts.css %}
     {% include css/style.min.css %}
+    {% include css/custom.css %}
   </style>
  
 </head>
@@ -72,37 +73,29 @@ layout: htmlCompressor
   <!-- Header -->
   <header>
 
-    <!-- Header container -->
-    <section>
+<!-- Header container -->
+<section class="navbar">
 
-      <!-- Homepage -->
+  <!-- Site name & description -->
+  <div class="logo-container">
+    <!-- Display logo on the left -->
+    <div class="logo">
+      <h3>
+        <a href="{{site.url | relative_url}}">
+          <img class="logo-img" src="{{site.logo | relative_url}}" alt="{{site.name}}">
+        </a>
+      </h3>
+    </div>
+  </div>
 
-      <!-- Site name & description -->
-      <div>
+  <!-- Navigation links on the right -->
+  <nav class="nav-links">
+    <a href="/about" aria-label="About">About <i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+    <a href="/store" aria-label="Store">Store <i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+    <a href="/portfolio" aria-label="Portfolio">Portfolio</a>
+  </nav>
 
-        <!-- Display: table -->
-        <div class="dt">
-
-          <!-- Display: table-cell -->
-          <div class="dtc">
-
-            <h3><a href="{{site.url | relative_url}}"><img class="logo-img" src="{{site.logo | relative_url }}" alt="{{site.name}}"></a></h3>
-            
-
-          </div><!-- .dtc -->
-
-        </div><!-- .dt -->
-
-      </div><!-- div -->
-
-      <!-- Mail -->
-      <a href="/about" aria-label="About">About <i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-      <a href="/store" aria-label="Home">Store<i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
-      <a href="/portfolio" aria-label="Home">Portfolio</a>
-
-
-    </section><!-- section -->
-
+</section><!-- section -->
   </header><!-- header -->
 
   <!-- Main -->

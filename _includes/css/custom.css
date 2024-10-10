@@ -1,21 +1,43 @@
-@media screen and (max-width: 42em) {
-    .dt {
-        width: 35% !important;
-        height: 100%;
-        display: table;
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .logo-container {
+    flex: 1; /* Take up available space on the left */
+  }
+
+  .logo img {
+    max-height: 50px; /* Adjust the size of the logo */
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Add spacing between links */
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+  }
+
+  /* Tablet view (768px and up) */
+  @media (min-width: 768px) {
+    .navbar {
+      padding: 20px 40px;
     }
-}
-@media screen and (max-width: 64em) {
-    .dt {
-        width: 35% !important;
-        height: 100%;
-        display: table;
+
+    .nav-links a {
+      font-size: 18px;
     }
-}
-@media screen and (min-width: 64em) {
-    .dt {
-        width: 35% !important;
-        height: 100%;
-        display: table;
+  }
+
+  /* Desktop view (1024px and up) */
+  @media (min-width: 1024px) {
+    .navbar {
+      padding: 20px 60px;
     }
-}
+  }
