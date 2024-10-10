@@ -59,7 +59,9 @@ layout: htmlCompressor
   <!-- Favicon & RSS -->
   <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/rss.xml">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   <!-- CSS & JS files -->
   <style>
     {% include css/fonts.css %}
@@ -81,8 +83,8 @@ layout: htmlCompressor
     <!-- Display logo on the left -->
     <div class="logo">
       <h3>
-        <a href="{{site.url | relative_url}}">
-          Matt Metzgar
+        <a href="{{site.url | relative_url}}" >
+          <h3 class="abril-fatface-regular "> Matt Metzgar </h3>
         </a>
       </h3>
     </div>
@@ -95,9 +97,9 @@ layout: htmlCompressor
 
   <!-- Navigation links on the right -->
   <nav class="nav-links">
-    <a href="/about" aria-label="About">About <i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-    <a href="/store" aria-label="Store">Store <i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
-    <a href="/portfolio" aria-label="Store">Portfolio <i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+    <a href="/about" aria-label="About">About </a>
+    <a href="/store" aria-label="Store">Store </a>
+    <a href="/portfolio" aria-label="Store">Portfolio </a>
 
   </nav>
 
