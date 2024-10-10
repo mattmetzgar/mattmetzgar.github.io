@@ -58,7 +58,7 @@
         
   @media (max-width: 767px) {
     main>section {
-        padding: 0px 50px;
+        padding: 0px 50px !important;
         margin-bottom: 120px;
     }
     .logo{
@@ -124,7 +124,7 @@ main>section {
 }
 
 footer {
-    position: relative;
+    position: absolute;
     border-top: 1px solid #f1f1f1;
     width: 100%;
     bottom: 0;
