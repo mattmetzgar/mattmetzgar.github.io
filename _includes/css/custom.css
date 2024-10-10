@@ -15,6 +15,11 @@
   .logo{
     margin-left: -50%;
   }
+  .logo h3{
+    font-size: 36px;
+    line-height: 29px;
+    padding-top: 15px;
+  }
 
   .nav-links {
     display: flex;
@@ -56,6 +61,10 @@
     .logo{
         margin-left: 0%;
       }
+      .logo h3 {
+        font-size: 36px;
+        line-height: 45px;
+    }
 
     .menu-toggle {
       display: block; /* Show toggle button */
