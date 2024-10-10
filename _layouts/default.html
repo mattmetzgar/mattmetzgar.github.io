@@ -88,6 +88,11 @@ layout: htmlCompressor
     </div>
   </div>
 
+    <!-- Toggle button for mobile view -->
+    <div class="menu-toggle">
+      <i class="fa fa-bars"></i>
+    </div>
+
   <!-- Navigation links on the right -->
   <nav class="nav-links">
     <a href="/about" aria-label="About">About <i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
@@ -161,6 +166,11 @@ layout: htmlCompressor
       faTag.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
       document.head.appendChild(faTag)
     })
+
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+  });
   </script>
 
   {% comment %}
