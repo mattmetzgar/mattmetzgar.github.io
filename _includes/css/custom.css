@@ -63,7 +63,7 @@
       font-size: 24px;
     }
 
-       .nav-links {
+    .nav-links {
       display: none; /* Hide links initially */
       position: absolute;
       top: 60px;
@@ -73,14 +73,7 @@
       padding: 10px 20px;
       flex-direction: column;
       gap: 10px;
-
-      /* Add height transition */
-      max-height: 0;
-      overflow: hidden;
-      opacity: 0;
-      transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
     }
-    
 
     .nav-links a {
       font-size: 16px;
@@ -91,7 +84,6 @@
         display: flex;
         margin-top: 20px;
         margin-right: 35px;
-        opacity: 1;
     }
   
       }
