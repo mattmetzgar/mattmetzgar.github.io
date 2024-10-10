@@ -62,8 +62,10 @@
         margin-left: 0%;
       }
       .logo h3 {
-        font-size: 36px;
+        font-size: 45px;
         line-height: 45px;
+        width: max-content;
+        margin-top: 25px;
     }
 
     .menu-toggle {
