@@ -15,24 +15,24 @@
     float: left; 
     text-align: center;
 }
-#share-buttons > div > svg {height: 20px; fill: #232323; margin-top: 10px;}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
 #share-buttons > div:hover {cursor: pointer;}
 #share-buttons > div.facebook:hover > svg {fill: #3B5998;}
-#share-buttons > div.twitter:hover > svg {fill: #000000;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
 #share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
 #share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
 #share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
 #share-buttons > div.instagram:hover > svg {fill: #C73B92;}
-#share-buttons > div.facebook > svg {height: 20px; margin-top: 7px;}
-#share-buttons > div.twitter > svg {height: 20px; margin-top: 7px;}
-#share-buttons > div.linkedin > svg {height: 20px; margin-top: 7px;}
-#share-buttons > div.pinterest > svg {height: 20px; margin-top: 7px;}
-#share-buttons > div.mail > svg {height: 20px; margin-top: 7px; margin-left: 7px;}
-.social{ margin-left: -150px;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+.social{ margin-left: -120px;}
 </style>
 
 <div class="social">
-    <span style="color: rgb(0, 0, 0);">Share on: </span>
+    <span style="color: silver;">Share on: </span>
     <div id="share-buttons">
         <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u={{ site.url }}{{ pageurl }}');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
         <div class="twitter" title="Share this on Twitter X" onclick="window.open('https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ page.url | absolute_url | uri_escape }}', '_blank')"><svg  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 1668.56 1221.19" viewBox="0 0 1668.56 1221.19" ><path d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99   h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z" /></svg></div>
