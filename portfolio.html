@@ -8,7 +8,7 @@ main>section article a {
     border-bottom: 0px solid #b4e7f8;
 }
 main>section {
-    padding: 0px 200px;
+    padding: 0px 240px;
     margin-bottom: 120px;
 }
 
@@ -20,7 +20,18 @@ main>section h3{
     margin-left: -105px;
     margin-bottom: 50px;
 }
-
+@media screen and (min-width: 1024px) {
+  main>section article .article__date {
+    font-weight: normal;
+    display: inline-block;
+    color: #b0b0b0;
+    margin-left: -120px;
+    margin-top: 20px !important;
+}
+main>section h1{
+    margin-left: -125px;
+}
+}
 @media screen and (max-width: 768px) {
     main>section {
     padding: 0px 50px;
