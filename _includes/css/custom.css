@@ -50,7 +50,7 @@
   /* Desktop view (1024px and up) */
   @media (min-width: 1024px) {
     .navbar {
-      padding: 20px 60px;
+      padding: 20px 120px;
     }
   }
 
