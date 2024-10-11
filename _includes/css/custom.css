@@ -101,7 +101,7 @@
 
     .nav-links.show {
         display: flex;
-        margin-top: 25px !important;
+        margin-top: 40px !important;
         margin-right: 35px;
         padding: 35px;
         z-index: 1;
