@@ -1,7 +1,39 @@
 ---
 layout: default
 ---
+<style>
 
+main>section article a {
+    border-bottom: 0px solid #b4e7f8;
+}
+main>section {
+    padding: 0px 200px;
+    margin-bottom: 120px;
+}
+
+main>section h1{
+    margin-left: -105px;
+}
+
+main>section h3{
+    margin-left: -105px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    main>section {
+    padding: 0px 50px;
+    margin-bottom: 120px;
+} 
+main>section h1{
+    margin-left: -30px !important;
+}
+main>section h3{
+    margin-left: -30px !important;
+    margin-bottom: 50px;
+}
+}
+</style>
 <!-- Article -->
 <article{% if site.addthisId == "" and site.disqusUsername == "" %} class="noBorder"{% endif %}>
 
