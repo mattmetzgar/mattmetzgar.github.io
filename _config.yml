@@ -6,7 +6,10 @@ collections:
     title: Posts
     output: true
     fields:
-      - { name: "title", label: "Title", widget: "string", required: false }
+    - name: title
+      label: Title
+      widget: string
+      required: false
   uploads:
     title: Uploads
     output: true
