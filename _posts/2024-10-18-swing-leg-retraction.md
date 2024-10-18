@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Swing-leg Retraction
 date: 2024-10-18 07:19:53 -04:00
+layout: article
 ---
+
 F﻿rom this [paper](https://aspirin.media.mit.edu/biomechatronics/wp-content/uploads/sites/8/2013/07/Seyfarth-2003_Swing-leg-retraction-a-simple-control-model-for-stable-running.pdf):
 
 "﻿It is commonly observed that running animals retract their limbs just prior to ground contact, moving each foot rearward towards the ground."
