@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Running is Hip Extension
-date: 2025-04-25 09:48:25
+date: 2025-04-25 05:48:25 -04:00
+layout: article
 ---
+
 W﻿henever my running form feels off, I try to focus on running in its simplest form.  In my view, running is essentially hip extension.  
 
 The only way to move forward in running is by applying force to the ground.  Therefore, the body needs to apply a force vector directed down and back.  This comes from hip extension.
