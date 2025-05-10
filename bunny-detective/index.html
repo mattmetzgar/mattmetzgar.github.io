@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bunny Detective</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background: url("detective_comp.jpg") no-repeat center center/cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .ar-link {
+        margin-bottom: 40px;
+      }
+      .ar-link img {
+        width: 320px;
+        max-width: 80vw;
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <h1>Bunny Detective</h1>
-        </div>
+      <a
+        class="ar-link"
+        href="https://metzgarink.8thwall.app/bunny-detective/"
+        target="_blank"
+      >
+        <img src="ar.png" alt="View in AR" />
+      </a>
     </div>
-    
-</body>
+  </body>
 </html>
