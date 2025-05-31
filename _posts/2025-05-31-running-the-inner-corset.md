@@ -1,8 +1,9 @@
 ---
+title: 'Running: The Inner Corset'
+date: 2025-05-31 11:01:37 -04:00
 layout: article
-title: "Running: The Inner Corset"
-date: 2025-05-31 15:01:37
 ---
+
 I﻿ think one of the more subtle aspects of running is upper body posture.  In her wonderful book, [8 Steps to a Pain-Free Back](https://www.amazon.com/0979303605-Esther-Gokhale/dp/0979303605), Esther Gokhale discusses the concept of the inner corset.
 
 T﻿he inner corset consists of the abdominal muscles that keep the back from arching too much.  In running, there can be a tendency for the back to arch and the bottom of the rib cage to flare out.
