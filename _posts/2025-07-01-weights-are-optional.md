@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Weights Are Optional
-date: 2025-07-01 09:06:14
+date: 2025-07-01 05:06:14 -04:00
+layout: article
 ---
+
 I﻿ read lots of proclamations online that if you don't lift weights as you age, you will become frail, get dementia, etc.  All of that is bullshit.
 
 I﻿t's more correct to say that some type of muscular exertion is necessary as you age, but it does not have to be weight training.  There are many examples of people staying in shape through different paths.
