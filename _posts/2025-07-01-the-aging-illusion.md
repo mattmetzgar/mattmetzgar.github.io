@@ -1,8 +1,9 @@
 ---
-layout: article
 title: The Aging Illusion
-date: 2025-07-01 14:11:03
+date: 2025-07-01 10:11:03 -04:00
+layout: article
 ---
+
 S﻿ocial media is distorting people's view of the aging process.  It takes a small sliver of older adults who are fit and broadcasts their success.  It makes it seem like the norm when it is not.
 
 D﻿iet and exercise is not all there is to aging.  Other components are genetics and plain luck.  Somehow those latter two rarely get mentioned.
