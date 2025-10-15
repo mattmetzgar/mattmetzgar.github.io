@@ -1,8 +1,9 @@
 ---
-layout: article
 title: 180 Steps Per Minute?
-date: 2025-10-15 12:49:04
+date: 2025-10-15 08:49:04 -04:00
+layout: article
 ---
+
 A﻿ good amount of running advice says to run at 180 steps per minute, as that is what elite runners typically run at.
 
 I﻿ have experimented with this pace over the years, but only occassionally.
