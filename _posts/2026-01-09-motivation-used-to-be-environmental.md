@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Motivation Used to Be Environmental
-date: 2026-01-09 11:56:18
+date: 2026-01-09 06:56:18 -05:00
+layout: article
 ---
+
 For most of human history, creativity was not self-motivated. Art and music emerged as responses to shared environments. People lived close together and moments of quiet or emotion naturally invited song, drawing, rhythm, or story. Creativity happened because the situation called for it.
 
 
