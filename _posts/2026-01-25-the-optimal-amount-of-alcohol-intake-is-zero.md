@@ -1,8 +1,9 @@
 ---
-layout: article
 title: The Optimal Amount of Alcohol Intake is Zero
-date: 2026-01-25 09:28:38
+date: 2026-01-25 04:28:38 -05:00
+layout: article
 ---
+
 I﻿ remember reading years ago about things like "heart-healthy" red wine and such.  I never believed any of it.
 
 T﻿he research now is pretty clear that no amount of alcohol is actually good for you.  Small amounts of alcohol probably don't cause much damage in terms of health.  But alcohol is not a health-promoting substance.
