@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Mid-Winter Running Update
-date: 2026-01-25 10:02:42
+date: 2026-01-25 05:02:42 -05:00
+layout: article
 ---
+
 M﻿y original plan was to run through the whole winter running barefoot on grass on warmer days.  I have made it so far to mid-January, but I have noticed some things.
 
 W﻿hen running barefoot in the cold, it's hard to feel your feet and so the running stride can easily get sloppy.  It also takes a lot longer to really warm up and get going.
