@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Big Coffee
-date: 2026-06-15 13:11:49
+date: 2026-06-15 09:11:49 -04:00
+layout: article
 ---
+
 I﻿ walked by a Starbucks the other day, and I was curious as to how many people drink coffee or consume caffeine.  I was shocked to find that 85% of the US population consumes caffeine regularly.
 
 I﻿'ve never really liked caffeine, and so I'm in the minority here.  The last time I had caffeine was 30 years ago in graduate school.
