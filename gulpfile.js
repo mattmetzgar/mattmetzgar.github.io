@@ -1,7 +1,7 @@
 var gulp = require('gulp')
 var plumber = require('gulp-plumber')
 var sourcemaps = require('gulp-sourcemaps')
-var sass = require('gulp-sass')
+var sass = require('gulp-sass')(require('sass'))
 var rename = require('gulp-rename')
 var uglify = require('gulp-uglify')
 var uncss = require('gulp-uncss')
@@ -12,27 +12,27 @@ var paths = {
   js: { source: 'assets/js/dev/*.js', target: 'assets/js/prod/' }
 }
 
-gulp.task('scss', function () {
-  gulp.src(paths.scss.source)
+function scss() {
+  return gulp.src(paths.scss.source)
     .pipe(plumber())
     .pipe(sourcemaps.init())
-      .pipe(sass({ outputStyle: 'compressed' }))
-      .pipe(rename({ extname: '.min.css' }))
+    .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+    .pipe(rename({ extname: '.min.css' }))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(paths.scss.target))
-})
+}
 
-gulp.task('js', function () {
-  gulp.src(paths.js.source)
+function js() {
+  return gulp.src(paths.js.source)
     .pipe(plumber())
     .pipe(sourcemaps.init())
-      .pipe(uglify())
-      .pipe(rename({ extname: '.min.js' }))
+    .pipe(uglify())
+    .pipe(rename({ extname: '.min.js' }))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(paths.js.target))
-})
+}
 
-gulp.task('cssConcat', function () {
+function cssConcat() {
   return gulp.src([
     './assets/css/prod/icomoon.min.css',
     './assets/css/prod/mixins.min.css',
@@ -41,25 +41,29 @@ gulp.task('cssConcat', function () {
     './assets/css/prod/style.min.css',
     './assets/css/prod/variables.min.css'
   ])
-    .pipe(concatCss("bundle.css"))
-    .pipe(gulp.dest('./assets/css/prod/'));
-});
+    .pipe(concatCss('bundle.css'))
+    .pipe(gulp.dest('./assets/css/prod/'))
+}
 
-gulp.task('uncss', function () {
+function uncssTask() {
   return gulp.src([
-      './assets/css/prod/style.min.css'
-    ])
-      .pipe(uncss({
-          html: ['./_site/index.html', './_site/**/*.html']
-      }))
-      .pipe(gulp.dest('./_includes/css'));
-});
+    './assets/css/prod/style.min.css'
+  ])
+    .pipe(uncss({
+      html: ['./_site/index.html', './_site/**/*.html']
+    }))
+    .pipe(gulp.dest('./_includes/css'))
+}
 
-gulp.task('watch', function () {
-  gulp.watch(paths.scss.source, ['scss'])
-  gulp.watch(paths.js.source, ['js'])
-});
+function watchFiles() {
+  gulp.watch(paths.scss.source, scss)
+  gulp.watch(paths.js.source, js)
+}
 
-gulp.task('css', ['cssConcat', 'uncss'])
-
-gulp.task('default', ['scss', 'js', 'watch'])
+gulp.task('scss', scss)
+gulp.task('js', js)
+gulp.task('cssConcat', cssConcat)
+gulp.task('uncss', uncssTask)
+gulp.task('css', gulp.series(cssConcat, uncssTask))
+gulp.task('watch', watchFiles)
+gulp.task('default', gulp.series(gulp.parallel(scss, js), watchFiles))
