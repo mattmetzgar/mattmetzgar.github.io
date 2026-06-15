@@ -1,9 +1,10 @@
 .DS_Store
-_site
-node_modules
+
+_site/
+node_modules/
+.jekyll-cache/
+.sass-cache/
+
 config.codekit3
 *.sublime-project
 *.sublime-workspace
-.jekyll-cache
-
-
