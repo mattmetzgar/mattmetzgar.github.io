@@ -31,7 +31,8 @@
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
+  transform: translateY(4px);
 }
 
 .nav-links a {
@@ -101,6 +102,7 @@
     padding: 10px 20px;
     flex-direction: column;
     gap: 10px;
+    transform: none;
   }
 
   .nav-links a {
