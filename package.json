@@ -1,26 +1,23 @@
 {
-  "name": "dasper",
+  "name": "mattmetzgar.com",
   "version": "1.0.0",
-  "description": "A Jekyll theme.",
+  "description": "Personal website and Jekyll blog for Matt Metzgar.",
   "main": "gulpfile.js",
   "scripts": {
     "gulp": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ozgrozer@github.com/ozgrozer/dasper.git"
+    "url": "git+https://github.com/mattmetzgar/mattmetzgar.github.io.git"
   },
   "keywords": [
     "jekyll",
-    "theme",
-    "dasper"
+    "blog",
+    "personal-site"
   ],
-  "author": "ozgrozer",
+  "author": "Matt Metzgar",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ozgrozer/dasper/issues"
-  },
-  "homepage": "https://github.com/ozgrozer/dasper#readme",
+  "homepage": "https://mattmetzgar.com",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-concat-css": "^3.1.0",
