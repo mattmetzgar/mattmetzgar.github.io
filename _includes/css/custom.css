@@ -1,130 +1,137 @@
 .navbar {
-    display: flex;
-    justify-content: space-between; /* Space between logo and links */
-    align-items: center;
-    padding: 10px 20px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
 
-  .logo-container {
-    flex: 1; /* Take up available space on the left */
-  }
+.logo-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
 
-  .logo img {
-    max-height: 65px; /* Adjust the size of the logo */
-  }
-  .logo{
-    margin-left: -50%;
-  }
-  .logo h3{
-    font-size: 36px;
-    line-height: 29px;
-    padding-top: 15px;
-  }
+.logo img {
+  max-height: 65px;
+}
 
-  .nav-links {
-    display: flex;
-    gap: 20px; /* Add spacing between links */
+.logo {
+  margin-left: -50%;
+  display: flex;
+  align-items: center;
+}
+
+.logo h3 {
+  font-size: 36px;
+  line-height: 1;
+  margin: 0;
+  padding-top: 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* Tablet view (768px and up) */
+@media (min-width: 768px) {
+  .navbar {
+    padding: 20px 40px;
   }
 
   .nav-links a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #333;
+    font-size: 18px;
+  }
+}
+
+/* Desktop view (1024px and up) */
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 20px 120px;
+  }
+}
+
+/* Mobile view (less than 768px) */
+@media (max-width: 767px) {
+  main > section {
+    padding: 0px 50px !important;
+    margin-bottom: 120px;
+  }
+
+  .logo {
+    margin-left: 0%;
+  }
+
+  .logo h3 {
+    font-size: 36px;
+    line-height: 40px;
+    width: max-content;
   }
 
   .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .toggle-menu {
+    margin-top: 35px;
+    right: 30px;
+    position: absolute;
+  }
+
+  .nav-links {
     display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    flex-direction: column;
+    gap: 10px;
   }
 
-  /* Tablet view (768px and up) */
-  @media (min-width: 768px) {
-    .navbar {
-      padding: 20px 40px;
-    }
-
-    .nav-links a {
-      font-size: 18px;
-    }
+  .nav-links a {
+    font-size: 20px;
+    color: #333;
   }
 
-  /* Desktop view (1024px and up) */
-  @media (min-width: 1024px) {
-    .navbar {
-      padding: 20px 120px;
-    }
+  .nav-links.show {
+    display: flex;
+    margin-top: 40px !important;
+    margin-right: 35px;
+    padding: 35px;
+    z-index: 1;
+    gap: 30px;
   }
-
-/* Mobile view (less than 768px) */
-        
-  @media (max-width: 767px) {
-    main>section {
-        padding: 0px 50px !important;
-        margin-bottom: 120px;
-    }
-    .logo{
-        margin-left: 0%;
-      }
-      .logo h3 {
-        font-size: 36px;
-        line-height: 40px;
-        width: max-content;
-    }
-
-    .menu-toggle {
-      display: block; /* Show toggle button */
-      cursor: pointer;
-      font-size: 24px;
-    }
-
-    .toggle-menu{
-        margin-top: 35px;
-        right: 30px;
-        position: absolute;
-    }
-
-    .nav-links {
-      display: none; /* Hide links initially */
-      position: absolute;
-      top: 60px;
-      right: 20px;
-      background-color: #fff;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      padding: 10px 20px;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .nav-links a {
-      font-size: 20px;
-      color: #333;
-    }
-
-    .nav-links.show {
-        display: flex;
-        margin-top: 40px !important;
-        margin-right: 35px;
-        padding: 35px;
-        z-index: 1;
-        gap: 30px;
-    }
-  
 }
 
 .abril-fatface-regular {
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-main>section {
-    padding: 0 120px;
-    margin-bottom: 120px;
+main > section {
+  padding: 0 120px;
+  margin-bottom: 120px;
 }
 
 footer {
-    position: relative;
-    border-top: 1px solid #f1f1f1;
-    width: 100%;
-    bottom: 0;
+  position: relative;
+  border-top: 1px solid #f1f1f1;
+  width: 100%;
+  bottom: 0;
 }
