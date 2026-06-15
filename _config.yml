@@ -1,5 +1,5 @@
 ---
-title: Mattmetzgar.Github.Io
+title: Matt Metzgar
 timezone: America/New_York
 collections:
   posts:
@@ -28,7 +28,7 @@ permalink: "/:categories/:year/:month/:day/:title"
 baseurl: ''
 addthisId: ''
 disqusUsername: ''
-googleAnalyticsId: UA-82546110-1
+googleAnalyticsId: ''
 bing: ''
 yandex: ''
 google: ''
