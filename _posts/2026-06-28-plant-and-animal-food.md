@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Plant and Animal Food
-date: 2026-06-28 16:24:16
+date: 2026-06-28 12:24:16 -04:00
+layout: article
 ---
+
 H﻿unter-gatherers all consumed some ratio of plant to animal food.  These differed based upon latitude and season.
 
 S﻿ome modern diets try to push the ratio to the extreme: either in the form of all animal food (carnivore) or all plant food (vegan).  Neither of these two approaches are healthy or sustainable in the long-run.
