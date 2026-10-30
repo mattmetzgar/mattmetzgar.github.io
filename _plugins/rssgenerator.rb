@@ -39,7 +39,7 @@ module Jekyll
       # Create the rss with the help of the RSS module
       rss = RSS::Maker.make("2.0") do |maker|
         maker.channel.title = site.config['name']
-        maker.channel.link = site.config['baseurl']
+        maker.channel.link = site.config['url'].to_s.sub(/\/$/, '') + site.config['baseurl'].to_s
         maker.channel.description = site.config['description'] || "RSS feed for #{site.config['name']}"
         maker.channel.author = site.config["author"]
         maker.channel.updated = site.posts.docs.map { |p| p.date  }.max
@@ -51,7 +51,7 @@ module Jekyll
           doc.read
           maker.items.new_item do |item|
             item.title = doc.data['title']
-            link = "#{site.config['baseurl']}#{doc.url}"
+            link = "#{site.config['url'].to_s.sub(/\/$/, '')}#{site.config['baseurl']}#{doc.url}"
             item.guid.content = link
             item.link = link
             item.description = "<![CDATA[" + doc.data['excerpt'].to_s.gsub("\n", ' ').gsub(%r{</?[^>]+?>}, '').strip[0...150] + "]]>"
